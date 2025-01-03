@@ -1,0 +1,116 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <!-- Header Text -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Entry Screen"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#2196F3"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Enter a Date -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter a date:"
+            android:textSize="16sp"
+            android:textColor="#2196F3"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/etDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Select a date"
+            android:focusable="false"
+            android:backgroundTint="#2196F3"
+            android:padding="12dp"
+            android:textColor="#000000"
+            android:textColorHint="#9E9E9E"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Fertilizer Category -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fertilizer Category:"
+            android:textSize="16sp"
+            android:textColor="#2196F3"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/etFertilizerCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Fertilizer Category"
+            android:backgroundTint="#2196F3"
+            android:padding="12dp"
+            android:textColor="#000000"
+            android:textColorHint="#9E9E9E"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Fertilizer Amount -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fertilizer Amount:"
+            android:textSize="16sp"
+            android:textColor="#2196F3"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/etFertilizerAmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Fertilizer Amount in KG"
+            android:backgroundTint="#2196F3"
+            android:padding="12dp"
+            android:textColor="#000000"
+            android:textColorHint="#9E9E9E"
+            android:layout_marginBottom="16dp"
+            android:inputType="number" />
+
+        <!-- Plant Type -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Plant Type:"
+            android:textSize="16sp"
+            android:textColor="#2196F3"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/etPlantType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Plant Type"
+            android:backgroundTint="#2196F3"
+            android:padding="12dp"
+            android:textColor="#000000"
+            android:textColorHint="#9E9E9E"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Submit Button -->
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:backgroundTint="#2196F3"
+            android:textColor="#FFFFFF"
+            android:padding="12dp" />
+    </LinearLayout>
+</ScrollView>

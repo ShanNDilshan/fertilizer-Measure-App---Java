@@ -1,0 +1,43 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etFertilizerCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fertilizer Category"
+        android:padding="12dp"
+        android:background="@drawable/edittext_background" />
+
+    <EditText
+        android:id="@+id/etFertilizerAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fertilizer Amount (kg)"
+        android:inputType="numberDecimal"
+        android:padding="12dp"
+        android:background="@drawable/edittext_background"
+        android:layout_marginTop="12dp" />
+
+    <EditText
+        android:id="@+id/etPlantType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Plant Type"
+        android:padding="12dp"
+        android:background="@drawable/edittext_background"
+        android:layout_marginTop="12dp" />
+
+    <Button
+        android:id="@+id/btnSubmitUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Entry"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/blue"
+        android:textColor="@color/white" />
+</LinearLayout>

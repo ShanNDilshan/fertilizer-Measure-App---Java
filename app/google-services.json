@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "805866678159",
+    "project_id": "agreec-3f8f7",
+    "storage_bucket": "agreec-3f8f7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:805866678159:android:7ab711670d4407330e4dfa",
+        "android_client_info": {
+          "package_name": "com.example.agreec"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChraiZpm2mViUIP-WGfg0o4OUdzSLPEHE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
